@@ -42,15 +42,15 @@
   padding-left: 193px;
 }
 
-.address_item {
+.address {
   font-size: 18px;
   line-height: 135%;
   font-style: normal;
 }
 
 .address_item_link {
-  text-decoration: none;
-  border-bottom: 1px solid #000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .cover {
@@ -78,22 +78,21 @@
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
+  line-height: 1.15;
 }
 
 .aligned-text {
   display: block;
-  text-align: left;
-  line-height: 1.15;
+  margin-top: 20px;
+  line-height: 1;
 }
 
 .aligned-text_center {
   text-align: center;
-  margin-top: 10px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-top: 10px;
 }
 
 .letter-spacing-extended {
@@ -109,7 +108,7 @@
   justify-content: space-between;
   align-items: center;
   margin-left: 28px;
-  margin-top: 125px;
+  margin-top: 136px;
 }
 
 .cover__description-text {
@@ -262,6 +261,11 @@
   margin: 180px 50px 88px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__address {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__menu {
